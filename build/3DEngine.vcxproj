@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BCBF4DD-4404-3D10-8A68-E650B0835F18}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>3DEngine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Projects\3dengine\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3DEngine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3DEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Projects\3dengine\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3DEngine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3DEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Projects\3dengine\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">3DEngine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">3DEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Projects\3dengine\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">3DEngine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">3DEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glfw\src\Debug\glfw3.lib;external\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Projects/3dengine/build/Debug/3DEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/3dengine/build/Debug/3DEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glfw\src\Release\glfw3.lib;external\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Projects/3dengine/build/Release/3DEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/3dengine/build/Release/3DEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glfw\src\MinSizeRel\glfw3.lib;external\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Projects/3dengine/build/MinSizeRel/3DEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/3dengine/build/MinSizeRel/3DEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\3dengine\external\glfw\include;D:\Projects\3dengine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glfw\src\RelWithDebInfo\glfw3.lib;external\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Projects/3dengine/build/RelWithDebInfo/3DEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/3dengine/build/RelWithDebInfo/3DEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\3dengine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Projects/3dengine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SD:/Projects/3dengine -BD:/Projects/3dengine/build --check-stamp-file D:/Projects/3dengine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Projects\3dengine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Projects/3dengine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SD:/Projects/3dengine -BD:/Projects/3dengine/build --check-stamp-file D:/Projects/3dengine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Projects\3dengine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Projects/3dengine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SD:/Projects/3dengine -BD:/Projects/3dengine/build --check-stamp-file D:/Projects/3dengine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Projects\3dengine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Projects/3dengine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SD:/Projects/3dengine -BD:/Projects/3dengine/build --check-stamp-file D:/Projects/3dengine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\Projects\3dengine\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Projects\3dengine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Projects\3dengine\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Projects\3dengine\build\ZERO_CHECK.vcxproj">
+      <Project>{8EC32330-E81E-323E-B33B-050A962DC82F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\3dengine\build\external\glad\glad.vcxproj">
+      <Project>{6A6B500F-2F45-340A-924A-98056ED02455}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\3dengine\build\external\glfw\src\glfw.vcxproj">
+      <Project>{0C41B78C-F07A-314C-BE54-A679AC0A4E5A}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

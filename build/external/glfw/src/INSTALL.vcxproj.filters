@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\3dengine\build\CMakeFiles\37ccac8ca89533e977c6971cfcf4b9b5\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F8B61761-8FB9-30A9-B260-89635049642A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

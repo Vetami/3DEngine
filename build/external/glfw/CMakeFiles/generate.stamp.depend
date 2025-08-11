@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/Apps/CMake/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Apps/CMake/share/cmake-4.0/Modules/CMakeDependentOption.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/FindThreads.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+D:/Apps/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+D:/Projects/3dengine/external/glfw/CMake/cmake_uninstall.cmake.in
+D:/Projects/3dengine/external/glfw/CMake/glfw3Config.cmake.in
+D:/Projects/3dengine/external/glfw/CMakeLists.txt

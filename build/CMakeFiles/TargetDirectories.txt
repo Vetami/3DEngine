@@ -1,0 +1,14 @@
+D:/Projects/3dengine/build/CMakeFiles/3DEngine.dir
+D:/Projects/3dengine/build/CMakeFiles/INSTALL.dir
+D:/Projects/3dengine/build/CMakeFiles/ALL_BUILD.dir
+D:/Projects/3dengine/build/CMakeFiles/ZERO_CHECK.dir
+D:/Projects/3dengine/build/external/glfw/CMakeFiles/uninstall.dir
+D:/Projects/3dengine/build/external/glfw/CMakeFiles/INSTALL.dir
+D:/Projects/3dengine/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Projects/3dengine/build/external/glfw/src/CMakeFiles/glfw.dir
+D:/Projects/3dengine/build/external/glfw/src/CMakeFiles/update_mappings.dir
+D:/Projects/3dengine/build/external/glfw/src/CMakeFiles/INSTALL.dir
+D:/Projects/3dengine/build/external/glfw/docs/CMakeFiles/INSTALL.dir
+D:/Projects/3dengine/build/external/glad/CMakeFiles/glad.dir
+D:/Projects/3dengine/build/external/glad/CMakeFiles/INSTALL.dir
+D:/Projects/3dengine/build/external/glad/CMakeFiles/ALL_BUILD.dir

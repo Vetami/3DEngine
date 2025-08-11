@@ -1,0 +1,10 @@
+^D:\PROJECTS\3DENGINE\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+D:\Apps\CMake\bin\cmake.exe -SD:/Projects/3dengine -BD:/Projects/3dengine/build --check-stamp-file D:/Projects/3dengine/build/external/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Projects/3dengine/build/cmake_install.cmake",
+		"D:/Projects/3dengine/build/external/glfw/cmake_install.cmake",
+		"D:/Projects/3dengine/build/external/glfw/src/cmake_install.cmake",
+		"D:/Projects/3dengine/build/external/glfw/docs/cmake_install.cmake",
+		"D:/Projects/3dengine/build/external/glad/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

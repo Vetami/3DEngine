@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Версия MSBuild 17.14.14+a129329f1 для .NET Framework
-      Сборка начата 11.08.2025 18:21:28.
+      Сборка начата 12.08.2025 6:28:18.
       
       Проект "D:\\Projects\\3dengine\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.59
+      Прошло времени 00:00:00.83
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Версия MSBuild 17.14.14+a129329f1 для .NET Framework
-      Сборка начата 11.08.2025 18:21:29.
+      Сборка начата 12.08.2025 6:28:19.
       
       Проект "D:\\Projects\\3dengine\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.57
+      Прошло времени 00:00:00.61
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-g7e0ld"
-      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-g7e0ld"
+      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-w22kl5"
+      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-w22kl5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-g7e0ld'
+        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-w22kl5'
         
-        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0c371.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6b5a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.14+a129329f1 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 18:21:29.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 12.08.2025 6:28:20.
         
-        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g7e0ld\\cmTC_0c371.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w22kl5\\cmTC_6b5a6.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_0c371.dir\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_6b5a6.dir\\Debug\\".
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g7e0ld\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_0c371.dir\\Debug\\cmTC_0c371.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w22kl5\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_0c371.dir\\Debug\\cmTC_0c371.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_0c371.dir\\Debug\\cmTC_0c371.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c371.dir\\Debug\\\\" /Fd"cmTC_0c371.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b5a6.dir\\Debug\\\\" /Fd"cmTC_6b5a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35211 ╨┤╨╗╤П x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c371.dir\\Debug\\\\" /Fd"cmTC_0c371.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b5a6.dir\\Debug\\\\" /Fd"cmTC_6b5a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g7e0ld\\Debug\\cmTC_0c371.exe" /INCREMENTAL /ILK:"cmTC_0c371.dir\\Debug\\cmTC_0c371.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-g7e0ld/Debug/cmTC_0c371.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-g7e0ld/Debug/cmTC_0c371.lib" /MACHINE:X64  /machine:x64 cmTC_0c371.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0c371.vcxproj -> D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g7e0ld\\Debug\\cmTC_0c371.exe
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w22kl5\\Debug\\cmTC_6b5a6.exe" /INCREMENTAL /ILK:"cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-w22kl5/Debug/cmTC_6b5a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-w22kl5/Debug/cmTC_6b5a6.lib" /MACHINE:X64  /machine:x64 cmTC_6b5a6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6b5a6.vcxproj -> D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w22kl5\\Debug\\cmTC_6b5a6.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_0c371.dir\\Debug\\cmTC_0c371.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_0c371.dir\\Debug\\cmTC_0c371.tlog\\cmTC_0c371.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g7e0ld\\cmTC_0c371.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_6b5a6.dir\\Debug\\cmTC_6b5a6.tlog\\cmTC_6b5a6.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w22kl5\\cmTC_6b5a6.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.59
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.64
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-qwqyvr"
-      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-qwqyvr"
+      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-yk37jr"
+      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-yk37jr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-qwqyvr'
+        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-yk37jr'
         
-        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_33842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bff5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.14+a129329f1 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 18:21:30.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 12.08.2025 6:28:21.
         
-        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwqyvr\\cmTC_33842.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk37jr\\cmTC_bff5a.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_33842.dir\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_bff5a.dir\\Debug\\".
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwqyvr\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_33842.dir\\Debug\\cmTC_33842.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk37jr\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_bff5a.dir\\Debug\\cmTC_bff5a.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_33842.dir\\Debug\\cmTC_33842.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_33842.dir\\Debug\\cmTC_33842.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_bff5a.dir\\Debug\\cmTC_bff5a.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_bff5a.dir\\Debug\\cmTC_bff5a.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33842.dir\\Debug\\\\" /Fd"cmTC_33842.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bff5a.dir\\Debug\\\\" /Fd"cmTC_bff5a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35211 ╨┤╨╗╤П x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33842.dir\\Debug\\\\" /Fd"cmTC_33842.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bff5a.dir\\Debug\\\\" /Fd"cmTC_bff5a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Apps\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwqyvr\\Debug\\cmTC_33842.exe" /INCREMENTAL /ILK:"cmTC_33842.dir\\Debug\\cmTC_33842.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-qwqyvr/Debug/cmTC_33842.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-qwqyvr/Debug/cmTC_33842.lib" /MACHINE:X64  /machine:x64 cmTC_33842.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_33842.vcxproj -> D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwqyvr\\Debug\\cmTC_33842.exe
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk37jr\\Debug\\cmTC_bff5a.exe" /INCREMENTAL /ILK:"cmTC_bff5a.dir\\Debug\\cmTC_bff5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-yk37jr/Debug/cmTC_bff5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-yk37jr/Debug/cmTC_bff5a.lib" /MACHINE:X64  /machine:x64 cmTC_bff5a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bff5a.vcxproj -> D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk37jr\\Debug\\cmTC_bff5a.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_33842.dir\\Debug\\cmTC_33842.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_33842.dir\\Debug\\cmTC_33842.tlog\\cmTC_33842.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwqyvr\\cmTC_33842.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_bff5a.dir\\Debug\\cmTC_bff5a.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_bff5a.dir\\Debug\\cmTC_bff5a.tlog\\cmTC_bff5a.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk37jr\\cmTC_bff5a.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.60
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.59
         
       exitCode: 0
   -
@@ -296,8 +296,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-eapvun"
-      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-eapvun"
+      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-ct8b78"
+      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-ct8b78"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -307,39 +307,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-eapvun'
+        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-ct8b78'
         
-        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e9b75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b454c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.14+a129329f1 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 18:21:31.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 12.08.2025 6:28:22.
         
-        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\cmTC_e9b75.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\cmTC_b454c.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_e9b75.dir\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b454c.dir\\Debug\\".
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_e9b75.dir\\Debug\\cmTC_e9b75.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b454c.dir\\Debug\\cmTC_b454c.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_e9b75.dir\\Debug\\cmTC_e9b75.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_e9b75.dir\\Debug\\cmTC_e9b75.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b454c.dir\\Debug\\cmTC_b454c.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b454c.dir\\Debug\\cmTC_b454c.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9b75.dir\\Debug\\\\" /Fd"cmTC_e9b75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\src.c"
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b454c.dir\\Debug\\\\" /Fd"cmTC_b454c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\src.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35211 ╨┤╨╗╤П x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9b75.dir\\Debug\\\\" /Fd"cmTC_e9b75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b454c.dir\\Debug\\\\" /Fd"cmTC_b454c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\src.c"
           src.c
-        D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\cmTC_e9b75.vcxproj]
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\cmTC_e9b75.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\cmTC_b454c.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\cmTC_b454c.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
         
         ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
         
-        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\cmTC_e9b75.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\cmTC_b454c.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
         (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
-          D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eapvun\\cmTC_e9b75.vcxproj]
+          D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ct8b78\\cmTC_b454c.vcxproj]
         
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 1
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.33
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.37
         
       exitCode: 1
   -
@@ -352,8 +353,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9gpe2c"
-      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9gpe2c"
+      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-iktj4o"
+      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-iktj4o"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -363,42 +364,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9gpe2c'
+        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-iktj4o'
         
-        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2ac16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3b2c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.14+a129329f1 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 18:21:31.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 12.08.2025 6:28:22.
         
-        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\cmTC_2ac16.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\cmTC_3b2c8.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_2ac16.dir\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_3b2c8.dir\\Debug\\".
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_2ac16.dir\\Debug\\cmTC_2ac16.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_3b2c8.dir\\Debug\\cmTC_3b2c8.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_2ac16.dir\\Debug\\cmTC_2ac16.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2ac16.dir\\Debug\\cmTC_2ac16.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_3b2c8.dir\\Debug\\cmTC_3b2c8.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_3b2c8.dir\\Debug\\cmTC_3b2c8.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ac16.dir\\Debug\\\\" /Fd"cmTC_2ac16.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\CheckFunctionExists.c"
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b2c8.dir\\Debug\\\\" /Fd"cmTC_3b2c8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\CheckFunctionExists.c"
           ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35211 ╨┤╨╗╤П x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ac16.dir\\Debug\\\\" /Fd"cmTC_2ac16.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b2c8.dir\\Debug\\\\" /Fd"cmTC_3b2c8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\Debug\\cmTC_2ac16.exe" /INCREMENTAL /ILK:"cmTC_2ac16.dir\\Debug\\cmTC_2ac16.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9gpe2c/Debug/cmTC_2ac16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9gpe2c/Debug/cmTC_2ac16.lib" /MACHINE:X64  /machine:x64 cmTC_2ac16.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\cmTC_2ac16.vcxproj]
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\cmTC_2ac16.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\Debug\\cmTC_3b2c8.exe" /INCREMENTAL /ILK:"cmTC_3b2c8.dir\\Debug\\cmTC_3b2c8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-iktj4o/Debug/cmTC_3b2c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-iktj4o/Debug/cmTC_3b2c8.lib" /MACHINE:X64  /machine:x64 cmTC_3b2c8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\cmTC_3b2c8.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\cmTC_3b2c8.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
         
         ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
         
-        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\cmTC_2ac16.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\cmTC_3b2c8.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
         (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
-          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gpe2c\\cmTC_2ac16.vcxproj]
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktj4o\\cmTC_3b2c8.vcxproj]
         
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 1
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.43
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.45
         
       exitCode: 1
   -
@@ -411,8 +412,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9i4dgh"
-      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9i4dgh"
+      source: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-3k7s5v"
+      binary: "D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-3k7s5v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -422,42 +423,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9i4dgh'
+        Change Dir: 'D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-3k7s5v'
         
-        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f8cab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Apps/VSProduct/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a093b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.14+a129329f1 ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 18:21:32.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 12.08.2025 6:28:23.
         
-        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\cmTC_f8cab.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\cmTC_a093b.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_f8cab.dir\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_a093b.dir\\Debug\\".
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_f8cab.dir\\Debug\\cmTC_f8cab.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_a093b.dir\\Debug\\cmTC_a093b.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_f8cab.dir\\Debug\\cmTC_f8cab.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_f8cab.dir\\Debug\\cmTC_f8cab.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_a093b.dir\\Debug\\cmTC_a093b.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_a093b.dir\\Debug\\cmTC_a093b.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8cab.dir\\Debug\\\\" /Fd"cmTC_f8cab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\CheckFunctionExists.c"
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a093b.dir\\Debug\\\\" /Fd"cmTC_a093b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\CheckFunctionExists.c"
           ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35211 ╨┤╨╗╤П x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8cab.dir\\Debug\\\\" /Fd"cmTC_f8cab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a093b.dir\\Debug\\\\" /Fd"cmTC_a093b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\Debug\\cmTC_f8cab.exe" /INCREMENTAL /ILK:"cmTC_f8cab.dir\\Debug\\cmTC_f8cab.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9i4dgh/Debug/cmTC_f8cab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-9i4dgh/Debug/cmTC_f8cab.lib" /MACHINE:X64  /machine:x64 cmTC_f8cab.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\cmTC_f8cab.vcxproj]
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\cmTC_f8cab.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+          D:\\Apps\\VSProduct\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\Debug\\cmTC_a093b.exe" /INCREMENTAL /ILK:"cmTC_a093b.dir\\Debug\\cmTC_a093b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-3k7s5v/Debug/cmTC_a093b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/3dengine/build/CMakeFiles/CMakeScratch/TryCompile-3k7s5v/Debug/cmTC_a093b.lib" /MACHINE:X64  /machine:x64 cmTC_a093b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\cmTC_a093b.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\cmTC_a093b.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
         
         ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
         
-        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\cmTC_f8cab.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        "D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\cmTC_a093b.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
         (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
-          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9i4dgh\\cmTC_f8cab.vcxproj]
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [D:\\Projects\\3dengine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7s5v\\cmTC_a093b.vcxproj]
         
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 1
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.43
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.45
         
       exitCode: 1
 ...
